@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Light grey background */
+    color: #333; /* Dark text for readability */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em; /* Larger font size for header */
+}
+
+.tagline {
+    font-size: 1.2em;
+    font-weight: 300;
+    color: #ccc; /* Light grey tagline */
+}
+
+/* Section Styles */
+section {
+    padding: 40px 0; /* Increased padding for sections */
+    border-bottom: 1px solid #ddd;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 30px; /* Slightly increased margin */
+}
+
+.profile-pic {
+    display: block;
+    margin: 0 auto 30px; /* Increased margin bottom */
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    object-fit: cover; /* Ensure image fills the container */
+}
+
+/* Skills Section */
+#skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#skills ul li {
+    margin: 10px;
+    padding: 10px 20px;
+    background: #555; /* Darker background for skills */
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Projects Section */
+.project {
+    margin-bottom: 30px; /* Increased margin bottom */
+    text-align: center; /* Center align project items */
+}
+
+.project img {
+    width: 100%;
+    max-width: 300px; /* Set maximum width for images */
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Resume Section */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #555;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+.btn:hover {
+    background: #777; /* Darker shade on hover */
+}
+
+/* Contact Section */
+#contact p {
+    text-align: center;
+    margin-bottom: 20px; /* Increased margin bottom */
+    text-decoration-color: #333;
+}
+
+#contact a {
+    color: #555; /* Dark grey links */
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
